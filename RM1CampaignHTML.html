@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RM1 Campaign</title>
+    <link rel="stylesheet" href="RM1CampaignCSS.css">
+</head>
+
+<div class="navBarContainer">
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li>
+                <a href="#CampaignForm">Campaign Form</a>
+                <ul class="campaignFormDropdown">
+                    <li><a href="#formDropdown">Individual</a></li>
+                    <li><a href="#kuliyyahDropdown">Kuliyyah</a></li>
+                </ul>
+            </li>
+            <li><a href="#Contacts">Contact Us</a></li>
+        </ul>
+    </nav>
+</div>
+
+<body>
+    <header>
+        <legend id="Home"></legend>
+        <div class="backgroundOverlay">
+            <div class="headerContent">
+                <img src="iiumLogo.png" alt="IIUM Logo">
+                <h1 id="campaignName">RM1 CAMPAIGN</h1>
+                <p id="tagline">Let your contributions be perpetual for the pleasure of Allah SWT</p>            
+                <p id="quranicVerse">“The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows seven spikes;<br>in each spike is a hundred grains. And Allah multiplies [His reward] for whom He wills. And Allah is all-Encompassing and Knowing.”<br>Al Baqarah:261</p>
+                <br>
+            </div>
+        </div>
+    </header>
+
+    <div class="imageContainer">
+        <img src="image1.jpg" alt="image 1">
+        <img src="image2.jpg" alt="image 2">
+        <img src="image3.jpg" alt="image 3">
+     </div>
+
+    <main>
+        <section id="salaryDeductionForm">
+        <h1 id="formTitle">Monthly Salary Deduction</h1>
+        <p id="detailsTitle">Please enter your details below to complete the form.</p>
+        <form id="form">
+            <fieldset>
+                <legend id="formDropdown">RM1 Campaign</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="staffNo">Staff Number:</label>
+                <input type="text" id="staffNo" name="staffNo" required>
+
+                <label for="dept">K/C/D/I/O:</label>
+                <input type="text" id="dept" name="dept" required>
+
+                <label for="contact">Contact Number:</label>
+                <input type="number" id="contact" name="contact" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="amount">Amount to be Deducted:</label>
+                <input type="number" id="amount" name="amount" step="any" required>
+
+                <label for="startDate">Deduction Start Date:</label>
+                <input type="date" id="startDate" name="startDate" required>
+
+                <label for="endDate">Deduction End Date:</label>
+                <input type="date" id="endDate" name="endDate" required>
+
+                <div class="submitButtonContainer">
+                    <input type="submit" id="submitButton" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+
+        <br>
+
+        <form id="formKuliyyah">
+            <fieldset>
+                <legend id="kuliyyahDropdown">RM1 Campaign - Kuliyyah Based</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="staffNo">Staff Number:</label>
+                <input type="text" id="staffNo" name="staffNo" required>
+
+                <label for="dept">K/C/D/I/O:</label>
+                <input type="text" id="dept" name="dept" required>
+
+                <label for="contact">Contact Number:</label>
+                <input type="number" id="contact" name="contact" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="Kuliyyah">Kuliyyah:</label>
+                <input type="text" id="kuliyyah" name="kuliyyah" required>
+
+                <label for="amount">Amount to be Deducted:</label>
+                <input type="number" id="amount" name="amount" step="any" required>
+
+                <label for="startDate">Deduction Start Date:</label>
+                <input type="date" id="startDate" name="startDate" required>
+
+                <label for="endDate">Deduction End Date:</label>
+                <input type="date" id="endDate" name="endDate" required>
+
+                <div class="submitButtonContainer">
+                    <input type="submit" id="submitButton" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+
+        </section>
+            <section id="contactInfo">
+            <h2>Contact Us</h2>
+            <p>IIUM ENDOWMENT FUND<br>
+                Level 3, Rectory<br>
+                International Islamic University Malaysia<br>
+                P.O. Box 10<br>
+                50728 Kuala Lumpur<br>
+                Tel : 03 6196 4268<br>
+                Email : ief@iium.edu.my<br>
+                Website : <a href="https://www.iium.edu.my/ief">www.iium.edu.my/ief</a><br>
+                Facebook : <a href="https://www.facebook.com/ief.official/">www.facebook.com/ief.official/</a>
+            </p>            
+        </section>
+
+        <button onclick="scrollToTop()" id="scrollButton">Scroll To Top</button>
+
+    </main>
+
+    <script src="RM1CampaignJS.js"></script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #CCC4B7;
+    color: #333;
+  }
+  
+  header {
+    padding: 20px;
+    background-image: url('header_background.jpg');
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .navBarContainer {
+    background-color: #CCC4B7;
+    padding: 15px 15px;
+    text-align: right;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+
+  .campaignFormDropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 100px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+  
+  .campaignFormDropdown li {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    color: #333;
+    text-align: center;
+  }
+
+  nav ul li:hover .campaignFormDropdown {
+    display: block;
+  }
+
+  .backgroundOverlay { 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .headerContent {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+  }
+  
+  img {
+    max-width: 500px;
+  }
+  
+  #campaignName {
+    color: #333;
+    font-family: 'Times New Roman', serif;
+    font-size: 50px;
+  }
+
+  #tagline {
+    color: #333;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 25px;
+  }
+
+  #quranicVerse {
+    color: #333;
+    font-family: 'Times New Roman', serif;
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  .headerButton {
+    align-items: center;
+  }
+
+  .formButton, .formKuliyyahButton {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #333; 
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .formButton, .formKuliyyahButton {
+    text-decoration: none; /* Removes underline from the link */
+    color: inherit; /* Keeps the link text color */
+  }
+  
+  .formButton:hover, .formKuliyyahButton:hover {
+    background-color: rgb(251, 195, 54, 1);
+  }
+  
+  .imageContainer {
+    display: flex;
+  }
+  
+  .imageContainer img {
+    padding: 20px;
+    width: 33.33%; 
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  main {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+
+  #formTitle, #detailsTitle {
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .submitButtonContainer {
+    text-align: center;
+  }
+
+  #submitButton {
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #submitButton:hover {
+    background-color: #0056b3;
+  }
+
+  #messageContainer {
+    display: none;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+
+  #contactInfo {
+    text-align: center;
+  }
+
+  #scrollButton {
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #scrollButton:hover {
+    background-color: #0056b3;
+  }
+  
+
+  
