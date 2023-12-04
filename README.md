@@ -1,2 +1,2 @@
 # WebTechIndividualAssignment
-Name: Nur Aliah Binti Khairul
+Name: Nur Aliah Binti Khairul oo
