@@ -1,6 +1,4 @@
 # WebTechIndividualAssignment
-Name: Nur Aliah Binti Khairul
-Matric No: 2217346
 
 The JavaScript interaction I have created for the 1-page website:
 1. Form Submission Event Listener:
